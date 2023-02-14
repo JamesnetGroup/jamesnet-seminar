@@ -2,7 +2,6 @@
 
 ## 1st
 - 2023-02-11
-
 - Application
 - Window
 - StackPanel

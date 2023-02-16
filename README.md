@@ -6,8 +6,8 @@ TBD... 내용 작성중
 ## 1회 WPF 스터디
 - 시작일: 2023년 02월 11일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
-- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
 - [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
+- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
 
 <details>
 <summary><b>주요 내용 펼치기</b></summary>

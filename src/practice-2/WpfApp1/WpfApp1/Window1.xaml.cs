@@ -20,14 +20,17 @@ namespace WpfApp1
     /// </summary>
     public partial class Window1 : Window
     {
+        public List<CompanyModel> Items { get; set; }
+        
+        public CompanyModel CurrentItem { get; set; }
+
         public Window1()
         {
             InitializeComponent();
 
-            var items = GetItems();
-            lb.ItemsSource = items;
-
-            lb.SelectedValue = "MSFT";
+            Items = GetItems();
+            CurrentItem = Items[1];
+            DataContext = this;
         }
 
         private List<CompanyModel> GetItems()

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -18,11 +20,31 @@ namespace WpfApp1
     /// <summary>
     /// Window1.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window1 : Window, INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        protected void SetProperty<T>(ref T oldValue, 
+            ref T newValue, 
+            [CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler? handler = PropertyChanged;
+
+            if(handler != null) 
+            {
+                oldValue = newValue;
+                handler(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
         public List<CompanyModel> Items { get; set; }
-        
-        public CompanyModel CurrentItem { get; set; }
+
+        private CompanyModel _currentItem;
+        public CompanyModel CurrentItem
+        {
+            get => _currentItem;
+            set => SetProperty(ref _currentItem, ref value);
+        }
 
         public Window1()
         {

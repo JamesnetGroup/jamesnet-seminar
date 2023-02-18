@@ -16,6 +16,6 @@
                  DisplayMemberPath="Name"
                  SelectedValuePath="Id"/>
         
-        <TextBlock Grid.Row="1" Text="{Binding CurrentItem}"/>
+        <TextBlock Grid.Row="1" Text="{Binding CurrentItem.Name}"/>
     </Grid>
 </Window>

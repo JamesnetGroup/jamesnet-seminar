@@ -9,5 +9,6 @@ namespace WpfApp1
     internal class CompanyModel
     {
         public string Name { get; internal set; }
+        public string Id { get; internal set; }
     }
 }

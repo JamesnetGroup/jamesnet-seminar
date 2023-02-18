@@ -24,18 +24,21 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            lb.ItemsSource = GetItems();
+            var items = GetItems();
+            lb.ItemsSource = items;
+
+            lb.SelectedValue = "MSFT";
         }
 
-        private IEnumerable GetItems()
+        private List<CompanyModel> GetItems()
         {
             //string[] source = new string[] { "Microsoft", "Apple" };
             //List<string> source = new();
             //source.Add("Microsoft");
             //source.Add("Apple");
             List<CompanyModel> source = new();
-            source.Add(new() { Name = "Microsoft" });
-            source.Add(new() { Name = "Apple" });
+            source.Add(new() { Id = "MSFT", Name = "Microsoft" });
+            source.Add(new() { Id = "APPL", Name = "Apple" });
             return source;
         }
     }

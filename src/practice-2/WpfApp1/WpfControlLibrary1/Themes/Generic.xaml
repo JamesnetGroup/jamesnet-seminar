@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:WpfControlLibrary1">
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/WpfControlLibrary1;component/Themes/Units/CompanyListItem.xaml"/>
         <ResourceDictionary Source="/WpfControlLibrary1;component/Themes/Units/CompanyList.xaml"/>
         <ResourceDictionary Source="/WpfControlLibrary1;component/Themes/Views/MainContent.xaml"/>
     </ResourceDictionary.MergedDictionaries>

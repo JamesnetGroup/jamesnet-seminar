@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace WpfControlLibrary1.Local.ViewModels
 {
@@ -26,6 +27,9 @@ namespace WpfControlLibrary1.Local.ViewModels
             }
         }
 
+        public ICommand CheckCommand { get; init; }
+        public ICommand SelectionCommand1 { get; init; }
+
         public List<CompanyModel> Items { get; init; }
 
         private CompanyModel _currentItem;
@@ -39,6 +43,18 @@ namespace WpfControlLibrary1.Local.ViewModels
         {
             Items = GetItems();
             CurrentItem = Items[1];
+
+            CheckCommand = new RelayCommand<object>(Check);
+            SelectionCommand1 = new RelayCommand<object>(Selection);
+        }
+
+        private void Selection(object obj)
+        {
+        }
+
+        private void Check(object obj)
+        {
+            
         }
 
         private List<CompanyModel> GetItems()

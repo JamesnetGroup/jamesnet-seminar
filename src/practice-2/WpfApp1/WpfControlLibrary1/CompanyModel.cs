@@ -10,5 +10,6 @@ namespace WpfControlLibrary1
     {
         public string Name { get; internal set; }
         public string Id { get; internal set; }
+        public bool IsSelected { get; set; }
     }
 }

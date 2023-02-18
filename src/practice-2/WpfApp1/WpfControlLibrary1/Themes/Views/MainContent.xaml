@@ -15,12 +15,17 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             <units:CompanyList ItemsSource="{Binding Items}"
+                                               SelectionMode="Extended"
+                                               SelectionCommand="{Binding SelectionCommand1}"
                                                SelectedItem="{Binding CurrentItem}"
                                                SelectedValuePath="Id"/>
 
                             <TextBlock Grid.Row="1" Text="{Binding CurrentItem.Name}"/>
+                            <Button Grid.Row="2" Command="{Binding CheckCommand}"
+                                    Content="Button"/>
                         </Grid>
                     </Border>
                 </ControlTemplate>

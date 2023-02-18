@@ -4,9 +4,22 @@
     xmlns:views="clr-namespace:WpfControlLibrary1.UI.Views"
     xmlns:units="clr-namespace:WpfControlLibrary1.UI.Units">
 
+    <DataTemplate x:Key="CompanyItemTemplate">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="COMP_ID"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Margin="4" Text="{Binding Id}"/>
+            <TextBlock Grid.Column="1" Margin="4" Text="{Binding Name}"/>
+        </Grid>
+    </DataTemplate>
+    
     <Style TargetType="{x:Type units:CompanyListItem}">
         <Setter Property="Background" Value="#343434"/>
         <Setter Property="Foreground" Value="#ffffff"/>
+        <Setter Property="ContentTemplate" Value="{StaticResource CompanyItemTemplate}"/>
+        <Setter Property="IsSelected" Value="{Binding IsSelected}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:CompanyListItem}">
@@ -14,11 +27,19 @@
                             BorderBrush="#151515"
                             BorderThickness="0 0 1 1"
                             Padding="4">
-                        <ContentPresenter/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Content" Padding="4"/>
+                            <ContentPresenter x:Name="content" Grid.Row="1" Visibility="Collapsed"/>
+                        </Grid>
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsSelected" Value="True">
                             <Setter Property="Background" Value="#3D65BC"/>
+                            <Setter TargetName="content" Property="Visibility" Value="Visible"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

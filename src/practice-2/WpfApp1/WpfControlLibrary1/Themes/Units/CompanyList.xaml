@@ -4,20 +4,9 @@
     xmlns:views="clr-namespace:WpfControlLibrary1.UI.Views"
     xmlns:units="clr-namespace:WpfControlLibrary1.UI.Units">
 
-    <DataTemplate x:Key="CompanyItemTemplate">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" SharedSizeGroup="COMP_ID"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Margin="4" Text="{Binding Id}"/>
-            <TextBlock Grid.Column="1" Margin="4" Text="{Binding Name}"/>
-        </Grid>
-    </DataTemplate>
 
     <Style TargetType="{x:Type units:CompanyList}">
         <Setter Property="Margin" Value="5"/>
-        <Setter Property="ItemTemplate" Value="{StaticResource CompanyItemTemplate}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:CompanyList}">

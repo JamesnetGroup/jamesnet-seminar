@@ -7,9 +7,15 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
         <ListBox ItemsSource="{Binding Items}"
                  SelectedItem="{Binding CurrentItem}"
                  DisplayMemberPath="Name"
                  SelectedValuePath="Id"/>
+        
+        <TextBlock Grid.Row="1" Text="{Binding CurrentItem}"/>
     </Grid>
 </Window>

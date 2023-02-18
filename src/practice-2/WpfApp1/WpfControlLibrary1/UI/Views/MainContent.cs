@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfControlLibrary1.Local.ViewModels;
 
 namespace WpfControlLibrary1.UI.Views
 {
@@ -20,6 +21,11 @@ namespace WpfControlLibrary1.UI.Views
         static MainContent()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(MainContent), new FrameworkPropertyMetadata(typeof(MainContent)));
+        }
+
+        public MainContent()
+        {
+            DataContext = new MainContentViewModel();
         }
     }
 }

@@ -10,18 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfControlLibrary1
+namespace WpfControlLibrary1.UI.Units
 {
-    /// <summary>
-    /// Window2.xaml에 대한 상호 작용 논리
-    /// </summary>
-    public partial class Window2 : Window
+    public class CompanyList : ListBox
     {
-        public Window2()
+        static CompanyList()
         {
-            InitializeComponent();
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(CompanyList), new FrameworkPropertyMetadata(typeof(CompanyList)));
         }
     }
 }

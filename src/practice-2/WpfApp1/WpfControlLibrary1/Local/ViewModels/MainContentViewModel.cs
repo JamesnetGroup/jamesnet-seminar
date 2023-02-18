@@ -7,17 +7,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfControlLibrary1
+namespace WpfControlLibrary1.Local.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainContentViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged;
 
         protected void SetProperty<T>(ref T oldValue,
             T newValue,
             [CallerMemberName] string propertyName = null)
         {
-            PropertyChangedEventHandler? handler = PropertyChanged;
+            PropertyChangedEventHandler handler = PropertyChanged;
 
             if (handler != null)
             {
@@ -35,7 +35,7 @@ namespace WpfControlLibrary1
             set => SetProperty(ref _currentItem, value);
         }
 
-        public MainViewModel()
+        public MainContentViewModel()
         {
             Items = GetItems();
             CurrentItem = Items[1];

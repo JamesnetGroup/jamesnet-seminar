@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace WpfControlLibrary1
 {
-    public class MainViewModel : Window, INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -39,7 +39,6 @@ namespace WpfControlLibrary1
         {
             Items = GetItems();
             CurrentItem = Items[1];
-            DataContext = this;
         }
 
         private List<CompanyModel> GetItems()

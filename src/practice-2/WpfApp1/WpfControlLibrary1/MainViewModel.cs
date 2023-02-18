@@ -26,7 +26,7 @@ namespace WpfControlLibrary1
             }
         }
 
-        public List<CompanyModel> Items { get; set; }
+        public List<CompanyModel> Items { get; init; }
 
         private CompanyModel _currentItem;
         public CompanyModel CurrentItem

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,20 @@ namespace WpfApp1
         public Window1()
         {
             InitializeComponent();
+
+            lb.ItemsSource = GetItems();
+        }
+
+        private IEnumerable GetItems()
+        {
+            //string[] source = new string[] { "Microsoft", "Apple" };
+            //List<string> source = new();
+            //source.Add("Microsoft");
+            //source.Add("Apple");
+            List<CompanyModel> source = new();
+            source.Add(new() { Name = "Microsoft" });
+            source.Add(new() { Name = "Apple" });
+            return source;
         }
     }
 }

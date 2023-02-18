@@ -5,13 +5,40 @@
     xmlns:units="clr-namespace:WpfControlLibrary1.UI.Units">
 
     <Style TargetType="{x:Type units:CompanyList}">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Margin="4" Text="{Binding Id}"/>
+                        <TextBlock Grid.Column="1" Margin="4" Text="{Binding Name}"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:CompanyList}">
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Border BorderBrush="#cccccc"
+                                    Padding="4"
+                                    BorderThickness="0 0 0 1">
+                                <TextBlock Grid.Row="0" Text="CompanyList"/>
+                            </Border>
+                            <ItemsPresenter Grid.Row="1"/>
+                        </Grid>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

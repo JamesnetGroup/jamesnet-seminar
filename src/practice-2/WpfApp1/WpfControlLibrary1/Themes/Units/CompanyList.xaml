@@ -11,7 +11,7 @@
                 <DataTemplate>
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="COMP_ID"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="0" Margin="4" Text="{Binding Id}"/>
@@ -26,10 +26,12 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <Grid>
+                        <Grid Grid.IsSharedSizeScope="True">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
                             <Border BorderBrush="#cccccc"
@@ -38,6 +40,11 @@
                                 <TextBlock Grid.Row="0" Text="CompanyList"/>
                             </Border>
                             <ItemsPresenter Grid.Row="1"/>
+                            <Border Grid.Row="2" 
+                                    BorderThickness="0 1 0 0"
+                                    BorderBrush="#cccccc"/>
+
+                            <TextBlock Grid.Row="3" Text="{Binding RelativeSource={RelativeSource AncestorType=ListBox},Path=Items.Count}"/>
                         </Grid>
                     </Border>
                 </ControlTemplate>

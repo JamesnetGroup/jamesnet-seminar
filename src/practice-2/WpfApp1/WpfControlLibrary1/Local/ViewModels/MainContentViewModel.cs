@@ -50,6 +50,11 @@ namespace WpfControlLibrary1.Local.ViewModels
             List<CompanyModel> source = new();
             source.Add(new() { Id = "MSFT", Name = "Microsoft" });
             source.Add(new() { Id = "APPL", Name = "Apple" });
+            source.Add(new() { Id = "GOOGL", Name = "Google" });
+            source.Add(new() { Id = "AMZN", Name = "Amazon" });
+            source.Add(new() { Id = "META", Name = "Meta" });
+            source.Add(new() { Id = "NFLX", Name = "Netflix" });
+            source.Add(new() { Id = "TSLA", Name = "Tesla" });
             return source;
         }
     }

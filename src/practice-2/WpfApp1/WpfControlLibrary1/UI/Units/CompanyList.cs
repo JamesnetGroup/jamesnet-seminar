@@ -38,7 +38,10 @@ namespace WpfControlLibrary1.UI.Units
 
         private void CompanyList_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            SelectionCommand.Execute(SelectedItem);
+            if (e.OriginalSource is FrameworkElement fe && fe.DataContext != null)
+            {
+                SelectionCommand.Execute(fe.DataContext);
+            }
         }
 
         protected override DependencyObject GetContainerForItemOverride()

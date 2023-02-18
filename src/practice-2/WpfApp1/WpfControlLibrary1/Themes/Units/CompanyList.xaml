@@ -15,9 +15,32 @@
         </Grid>
     </DataTemplate>
 
+    <Style TargetType="{x:Type ListBoxItem}" x:Key="ListItemStyle">
+        <Setter Property="Background" Value="#343434"/>
+        <Setter Property="Foreground" Value="#ffffff"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="#151515"
+                            BorderThickness="0 0 1 1"
+                            Padding="4">
+                        <ContentPresenter/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#3D65BC"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <Style TargetType="{x:Type units:CompanyList}">
         <Setter Property="Margin" Value="5"/>
         <Setter Property="ItemTemplate" Value="{StaticResource CompanyItemTemplate}"/>
+        <Setter Property="ItemContainerStyle" Value="{StaticResource ListItemStyle}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:CompanyList}">
@@ -54,7 +77,7 @@
         <Setter Property="ItemsPanel">
             <Setter.Value>
                 <ItemsPanelTemplate>
-                    <UniformGrid Columns="3"/>
+                    <StackPanel/>
                 </ItemsPanelTemplate>
             </Setter.Value>
         </Setter>

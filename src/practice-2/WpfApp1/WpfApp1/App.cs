@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using WpfControlLibrary1;
 
 namespace WpfApp1
 {
@@ -8,7 +9,7 @@ namespace WpfApp1
         {
             base.OnStartup(e);
 
-            Window1 win = new();
+            Window2 win = new();
             win.ShowDialog();
         }
     }

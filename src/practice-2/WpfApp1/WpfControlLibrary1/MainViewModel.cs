@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -7,30 +6,20 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace WpfControlLibrary1
 {
-    /// <summary>
-    /// Window1.xaml에 대한 상호 작용 논리
-    /// </summary>
-    public partial class Window1 : Window, INotifyPropertyChanged
+    public class MainViewModel : Window, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        protected void SetProperty<T>(ref T oldValue, 
-            T newValue, 
+        protected void SetProperty<T>(ref T oldValue,
+            T newValue,
             [CallerMemberName] string propertyName = null)
         {
             PropertyChangedEventHandler? handler = PropertyChanged;
 
-            if(handler != null) 
+            if (handler != null)
             {
                 oldValue = newValue;
                 handler(this, new PropertyChangedEventArgs(propertyName));
@@ -46,10 +35,8 @@ namespace WpfApp1
             set => SetProperty(ref _currentItem, value);
         }
 
-        public Window1()
+        public MainViewModel()
         {
-            InitializeComponent();
-
             Items = GetItems();
             CurrentItem = Items[1];
             DataContext = this;

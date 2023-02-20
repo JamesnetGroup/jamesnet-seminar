@@ -108,3 +108,7 @@ _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, 
 
 - 정세일님(dimohy) - 신구대학 겸임 교수, 닷넷데브 운영진, (주)마음인 CTO, Microsoft MVP
   - 간식, 음료
+  
+[![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)](https://forum.dotnetdev.kr/u/dimohy/summary)
+
+  

@@ -53,6 +53,7 @@ TBD... 내용 작성중
 ## 2회 WPF 스터디 (종료)
 - 시작일: 2023년 02월 18일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
+- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-study-2/6133)
 - [이종훈님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/22?u=jamesnet)
 
 **특별 후원**  

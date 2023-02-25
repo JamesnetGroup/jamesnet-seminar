@@ -4,6 +4,7 @@
     xmlns:views="clr-namespace:James.Forms.UI.Views">
 
     <Style TargetType="{x:Type views:MainWindow}">
+        <Setter Property="Background" Value="Blue"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type views:MainWindow}">

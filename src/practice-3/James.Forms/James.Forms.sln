@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "James.Forms", "James.Forms\James.Forms.csproj", "{54E4818D-7B5D-4804-A55A-58432D0AC683}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Studio", "Studio", "{6F87EBE5-C75A-4D37-97EB-F7E35C35C420}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partial", "Partial", "{791A2CAC-6567-487B-8F6C-190001B11782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesStduio", "JamesStduio\JamesStduio.csproj", "{E6908E28-20FA-4B02-9824-7B6D915883BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{54E4818D-7B5D-4804-A55A-58432D0AC683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54E4818D-7B5D-4804-A55A-58432D0AC683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54E4818D-7B5D-4804-A55A-58432D0AC683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54E4818D-7B5D-4804-A55A-58432D0AC683} = {791A2CAC-6567-487B-8F6C-190001B11782}
+		{E6908E28-20FA-4B02-9824-7B6D915883BD} = {6F87EBE5-C75A-4D37-97EB-F7E35C35C420}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DC2DD67-35DD-43AB-87E0-215C70492A2E}

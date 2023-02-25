@@ -3,7 +3,8 @@
 1. Forms 프로젝트
 2. Application 프로젝트
 3. Core 프로젝트
-4. DirectModules 구현
+4. DirectModules
+5. PrismRegion 
 6. ILoadable 
 
 ## 1. Forms 프로젝트
@@ -143,6 +144,37 @@ internal App AddModule<T>() where T : IModule, new()
     _modules.Add(module);
 
     return this;
+}
+```
+
+## 5. PrismRegion 구현
+
+```
+public class PrismRegion : ContentControl
+{
+    public static readonly DependencyProperty ContentNameProperty = DependencyProperty.Register("RegionName", typeof(string), typeof(PrismRegion), new PropertyMetadata(ContentNamePropertyChanged));
+
+    public string RegionName
+    {
+        get => (string)GetValue(ContentNameProperty);
+        set => SetValue(ContentNameProperty, value);
+    }
+
+    private static void ContentNamePropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    {
+        if (e.NewValue is string str
+            && string.IsNullOrEmpty(str) == false
+            && Application.Current?.CheckAccess() == true)
+        {
+            IRegionManager rm = RegionManager.GetRegionManager(Application.Current.MainWindow);
+            RegionManager.SetRegionName((PrismRegion)d, str);
+            RegionManager.SetRegionManager(d, rm);
+        }
+    }
+
+    public PrismRegion()
+    {
+    }
 }
 ```
 

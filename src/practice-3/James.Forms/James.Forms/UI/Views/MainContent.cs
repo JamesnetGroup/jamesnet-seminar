@@ -1,4 +1,5 @@
-﻿using James.Forms.Local.ViewModels;
+﻿using James.Core;
+using James.Forms.Local.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ using System.Windows.Shapes;
 
 namespace James.Forms.UI.Views
 {
-    public class MainContent : ContentControl
+    public class MainContent : PrismContent
     {
         static MainContent()
         {

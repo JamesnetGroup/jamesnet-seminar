@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partial", "Partial", "{791A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesStduio", "JamesStduio\JamesStduio.csproj", "{E6908E28-20FA-4B02-9824-7B6D915883BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{CE6B635F-EF27-417D-928A-4C8FD137F2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "James.Core", "James.Core\James.Core.csproj", "{4FEE298D-98B1-4032-8D82-9980B8CEA79B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6908E28-20FA-4B02-9824-7B6D915883BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEE298D-98B1-4032-8D82-9980B8CEA79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEE298D-98B1-4032-8D82-9980B8CEA79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEE298D-98B1-4032-8D82-9980B8CEA79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEE298D-98B1-4032-8D82-9980B8CEA79B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{54E4818D-7B5D-4804-A55A-58432D0AC683} = {791A2CAC-6567-487B-8F6C-190001B11782}
 		{E6908E28-20FA-4B02-9824-7B6D915883BD} = {6F87EBE5-C75A-4D37-97EB-F7E35C35C420}
+		{4FEE298D-98B1-4032-8D82-9980B8CEA79B} = {CE6B635F-EF27-417D-928A-4C8FD137F2D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DC2DD67-35DD-43AB-87E0-215C70492A2E}

@@ -9,9 +9,11 @@ namespace James.Forms.Local.ViewModels
 {
     public class MainContentViewModel : ObservableObject
     {
+        public string Name { get; init; }
+
         public MainContentViewModel() 
         {
-        
+            Name = "James";
         }
     }
 }

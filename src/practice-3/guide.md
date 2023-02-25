@@ -148,7 +148,7 @@ internal App AddModule<T>() where T : IModule, new()
 
 ## 6. ILoadable 구현
 
-```
+```csharp
 private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 {
     if (DataContext is IViewLoadable loadableView)

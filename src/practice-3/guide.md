@@ -2,7 +2,8 @@
 
 1. Forms 프로젝트
 2. Application 프로젝트
-3. DirectModules 구
+3. Core 
+4. DirectModules 구현
 
 ## 1. Forms 프로젝트
 
@@ -83,7 +84,31 @@ static void Main(string[] args)
 }
 ```
 
-## 3. DirectModules 구현
+## 3. Core 프로젝트
+
+- WPF 사용 가능한 클래스라이브러리 생성
+
+#### PrismContent 생성
+- ViewModelLocationProvider를 통한 VM 생성 및 시점 구현
+
+
+```csharp
+
+public PrismContent()
+{
+    ViewModelLocationProvider.AutoWireViewModelChanged(this, WireViewModelChanged);
+}
+
+private void WireViewModelChanged(object arg1, object arg2)
+{
+    if (arg1 is FrameworkElement fe && arg2 is INotifyPropertyChanged vm)
+    {
+        fe.DataContext = vm;
+    }
+}
+```
+
+## 4. DirectModules 구현
 
 - IModule 구현
 

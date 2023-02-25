@@ -199,3 +199,14 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 }
 ```
 
+## 7. EventAggregator
+
+- TBD...
+    
+## PubSubEvent<T>
+
+- TBD...
+    
+## 9. CommunityToolkit.Mvvm
+    
+- [RelayCommand + CanExecute](https://forum.dotnetdev.kr/t/relaycommand-canexecute/5215/7?u=jamesnet)

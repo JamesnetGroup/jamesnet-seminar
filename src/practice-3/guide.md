@@ -204,7 +204,7 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 - Publish
 - Subscribe
     
-## PubSubEvent<T>
+## 8. PubSubEvent<T>
 
 - PubSubEvent`<T>`
 - CustomEvent

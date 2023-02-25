@@ -1,4 +1,5 @@
-﻿using James.Forms.UI.Views;
+﻿using James.Core;
+using James.Forms.UI.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
@@ -13,8 +14,9 @@ namespace JamesStduio.Settings
     internal class DirectModules : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
-        {
+        {            
             IRegionManager regionManager = containerProvider.Resolve<IRegionManager>();
+
             regionManager.RegisterViewWithRegion("MainRegion", typeof(MainContent));
         }
 

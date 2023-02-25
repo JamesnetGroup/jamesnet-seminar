@@ -1,19 +1,24 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using James.Core;
+using Prism.Ioc;
+using Prism.Regions;
 
 namespace James.Forms.Local.ViewModels
 {
     public class MainContentViewModel : ObservableObject
     {
+        private readonly IContainerProvider _containerProvider;
+
         public string Name { get; init; }
 
-        public MainContentViewModel() 
+        public MainContentViewModel(IContainerProvider containerProvider, IRegionManager regionManager, JamesClass james)
         {
+            james.Name = "123123";
+
+            _containerProvider = containerProvider;
             Name = "James";
+
+            var a = containerProvider.Resolve<PrismContent>("UserContent");
         }
     }
 }

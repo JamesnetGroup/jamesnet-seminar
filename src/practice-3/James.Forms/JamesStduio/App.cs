@@ -1,5 +1,8 @@
-﻿using James.Forms.Local.ViewModels;
+﻿using James.Core;
+using James.Forms.Local.ViewModels;
 using James.Forms.UI.Views;
+using James.Users.Local.ViewModels;
+using James.Users.UI.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Mvvm;
@@ -30,6 +33,13 @@ namespace JamesStduio
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<PrismContent, MainContent>(ContentName.MainContent);
+            containerRegistry.RegisterSingleton<PrismContent, UserContent>(ContentName.UserContent);
+
+            var james = new JamesClass();
+            james.Name = "James";
+            containerRegistry.RegisterInstance(james);
+
             // containerRegistry.RegisterSingleton : 인스턴스 선언 (필요한 시점에 생성됨)
             // containerRegistry.RegisterInstance : 인스턴스 생성
         }
@@ -56,6 +66,7 @@ namespace JamesStduio
         internal App WireViewModel()
         {
             ViewModelLocationProvider.Register<MainContent, MainContentViewModel>();
+            ViewModelLocationProvider.Register<UserContent, UserContentViewModel>();
             return this;
         }
     }

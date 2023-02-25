@@ -17,7 +17,6 @@ namespace James.Core
             if(arg1 is FrameworkElement fe)
             {
                 fe.DataContext = arg2;
-
             }
         }
     }

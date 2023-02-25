@@ -61,6 +61,11 @@ protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 #### ViewModel 연결
 
 - WireViewModel 체인 메서드 구현
+
 ```
-ViewModelLocationProvider.Register<MainContent, MainContentViewModel>();
+internal App WireViewModel()
+{
+    ViewModelLocationProvider.Register<MainContent, MainContentViewModel>();
+    return this;
+}
 ```

@@ -210,5 +210,8 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 - CustomEvent
     
 ## 9. CommunityToolkit.Mvvm
-    
+- ObservableObject
+- partial class
+- [ObservableProperty]
+- partial Changed
 - [RelayCommand + CanExecute](https://forum.dotnetdev.kr/t/relaycommand-canexecute/5215/7?u=jamesnet)

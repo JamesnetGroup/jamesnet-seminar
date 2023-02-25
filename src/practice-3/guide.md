@@ -85,9 +85,9 @@ static void Main(string[] args)
 
 ## 3. DirectModules 구현
 
-> 왜 필요한가?
-
 - IModule 구현
+
+> 왜 필요한가?
 
 ```csharp
 internal class DirectModules : IModule

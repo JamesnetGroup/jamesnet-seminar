@@ -149,10 +149,12 @@ internal App AddModule<T>() where T : IModule, new()
 
 ## 5. PrismRegion 구현
 
-```
+```csharp
 public class PrismRegion : ContentControl
 {
-    public static readonly DependencyProperty ContentNameProperty = DependencyProperty.Register("RegionName", typeof(string), typeof(PrismRegion), new PropertyMetadata(ContentNamePropertyChanged));
+    public static readonly DependencyProperty ContentNameProperty = 
+        DependencyProperty.Register("RegionName", typeof(string), typeof(PrismRegion), 
+            new PropertyMetadata(ContentNamePropertyChanged));
 
     public string RegionName
     {

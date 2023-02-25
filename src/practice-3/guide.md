@@ -84,7 +84,11 @@ static void Main(string[] args)
 ```
 
 ## 3. DirectModules 구현
-- 왜 필요한가?
+
+> 왜 필요한가?
+
+- IModule 구현
+
 ```csharp
 internal class DirectModules : IModule
 {
@@ -100,3 +104,20 @@ internal class DirectModules : IModule
     }
 }
 ```
+
+- AddModule 구현
+
+> ConfigureModuleCatalog에서 _modules 등록하도록 추가
+
+```csharp
+
+internal App AddModule<T>() where T : IModule, new()
+{
+    IModule module = new T();
+    _modules.Add(module);
+
+    return this;
+}
+```
+
+

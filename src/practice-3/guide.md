@@ -215,3 +215,29 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 - [ObservableProperty]
 - partial Changed
 - [RelayCommand + CanExecute](https://forum.dotnetdev.kr/t/relaycommand-canexecute/5215/7?u=jamesnet)
+    
+```csharp
+sing CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+
+namespace JamesCommand
+{
+    public partial class MyViewModel : ObservableObject
+    {
+        [ObservableProperty]
+        [NotifyCanExecuteChangedFor(nameof(SaveCommand))]
+        private string _keywords;
+
+        private bool CanSave(object o)
+        {
+            return !string.IsNullOrWhiteSpace(Keywords) && Keywords.Length > 0;
+        }
+
+        [RelayCommand(CanExecute = nameof(CanSave))]
+        private void Save(object o)
+        {
+            // Save.
+        }
+    }
+} 
+```

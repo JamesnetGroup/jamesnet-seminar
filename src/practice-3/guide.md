@@ -201,11 +201,13 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 
 ## 7. EventAggregator
 
-- TBD...
+- Publish
+- Subscribe
     
 ## PubSubEvent<T>
 
-- TBD...
+- PubSubEvent`<T>`
+- CustomEvent
     
 ## 9. CommunityToolkit.Mvvm
     

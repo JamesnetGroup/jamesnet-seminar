@@ -11,8 +11,16 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <TextBlock Text="{Binding Name}" FontSize="30"
-                                   Foreground="#000000"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" FontSize="30"
+                                       Foreground="#000000"/>
+                            <Button Content="Send"
+                                    Command="{Binding SendCommand}"/>
+                            <TextBlock Text="{Binding Number}" 
+                                       Foreground="#ffffff"
+                                       FontSize="40"/>
+                        </StackPanel>
+
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

@@ -16,8 +16,8 @@ namespace JamesStduio.Settings
         public void OnInitialized(IContainerProvider containerProvider)
         {            
             IRegionManager regionManager = containerProvider.Resolve<IRegionManager>();
-
             regionManager.RegisterViewWithRegion("MainRegion", ContentName.MainContent);
+            regionManager.RegisterViewWithRegion("UserRegion", ContentName.UserContent);
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)

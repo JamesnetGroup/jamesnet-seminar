@@ -10,7 +10,17 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <TextBlock Text="User"/>
+                        <StackPanel>
+                            <TextBlock Text="User"/>
+                            <TextBlock Text="{Binding Message.Name}"
+                                       Foreground="#ffffff"
+                                       FontSize="40"/>
+                            <Button Content="Send"
+                                    Command="{Binding RequestCommand}"/>
+
+                            <TextBlock Text="{Binding MessageCompleted}"
+                                       Foreground="#ffffff" FontSize="40"/>
+                        </StackPanel>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

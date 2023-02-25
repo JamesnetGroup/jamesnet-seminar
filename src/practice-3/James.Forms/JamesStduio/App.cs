@@ -34,7 +34,9 @@ namespace JamesStduio
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             //containerRegistry.RegisterSingleton<PrismContent, MainContent>(ContentName.MainContent);
+            
             containerRegistry.RegisterInstance<PrismContent>(new MainContent(), ContentName.MainContent);
+
             containerRegistry.RegisterSingleton<PrismContent, UserContent>(ContentName.UserContent);
 
             var james = new JamesClass();

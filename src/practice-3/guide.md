@@ -2,8 +2,9 @@
 
 1. Forms 프로젝트
 2. Application 프로젝트
-3. Core 
+3. Core 프로젝트
 4. DirectModules 구현
+6. ILoadable 
 
 ## 1. Forms 프로젝트
 
@@ -145,4 +146,14 @@ internal App AddModule<T>() where T : IModule, new()
 }
 ```
 
+## 6. ILoadable 구현
 
+```
+private void PrismContent_Loaded(object sender, RoutedEventArgs e)
+{
+    if (DataContext is IViewLoadable loadableView)
+    { 
+        loadableView.OnLoaded(this);
+    }
+}
+```

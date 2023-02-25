@@ -116,6 +116,8 @@ private void WireViewModelChanged(object arg1, object arg2)
 
 > 왜 필요한가?
 
+> 시점 차이는?
+
 ```csharp
 internal class DirectModules : IModule
 {

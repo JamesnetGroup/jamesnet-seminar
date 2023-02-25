@@ -6,6 +6,9 @@
 4. DirectModules
 5. PrismRegion 
 6. ILoadable 
+7. IEventAggregator
+8. PubSubEvent<T>
+9. CommunityToolkit.Mvvm
 
 ## 1. Forms 프로젝트
 

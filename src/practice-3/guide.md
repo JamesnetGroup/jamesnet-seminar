@@ -149,6 +149,8 @@ internal App AddModule<T>() where T : IModule, new()
 
 ## 5. PrismRegion 구현
 
+> Region을 꼭 써야 할까?
+ 
 ```csharp
 public class PrismRegion : ContentControl
 {

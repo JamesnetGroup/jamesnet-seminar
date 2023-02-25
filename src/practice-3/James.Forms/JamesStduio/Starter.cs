@@ -11,8 +11,7 @@ namespace JamesStduio
         [STAThread] 
         public static void Main() 
         {
-            App app = new();
-            app.Run();
+            App app = new App().Run();
         }
     }
 }

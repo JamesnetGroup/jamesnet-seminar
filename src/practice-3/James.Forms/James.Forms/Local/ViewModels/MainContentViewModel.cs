@@ -9,5 +9,9 @@ namespace James.Forms.Local.ViewModels
 {
     public class MainContentViewModel : ObservableObject
     {
+        public MainContentViewModel() 
+        {
+        
+        }
     }
 }

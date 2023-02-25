@@ -11,7 +11,9 @@ namespace JamesStduio
         [STAThread] 
         public static void Main() 
         {
-            App app = new App().Run();
+            _ = new App()
+                .WireViewModel()
+                .Run();
         }
     }
 }

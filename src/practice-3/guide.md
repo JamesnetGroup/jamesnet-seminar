@@ -1,7 +1,8 @@
 # 내용
 
 1. Forms 프로젝트
-1. Application 프로젝트
+2. Application 프로젝트
+3. DirectModules 구
 
 ## 1. Forms 프로젝트
 
@@ -38,7 +39,7 @@ protected override Window CreateShell()
 ```csharp
 protected override void RegisterTypes(IContainerRegistry containerRegistry)
 {
-    // containerRegistry.RegisterSingleton : 인스턴스 선언
+    // containerRegistry.RegisterSingleton : 인스턴스 선언 (필요한 시점에 생성됨)
     // containerRegistry.RegisterInstance : 인스턴스 생성
 }
 ```
@@ -79,5 +80,23 @@ static void Main(string[] args)
     _ = new App()
         .WireViewModel()
         .Run();
+}
+```
+
+## 3. DirectModules 구현
+- 왜 필요한가?
+```csharp
+internal class DirectModules : IModule
+{
+    public void OnInitialized(IContainerProvider containerProvider)
+    {
+        IRegionManager regionManager = containerProvider.Resolve<IRegionManager>();
+        regionManager.RegisterViewWithRegion("MainRegion", typeof(LoginContent));
+    }
+
+    public void RegisterTypes(IContainerRegistry containerRegistry)
+    {
+            
+    }
 }
 ```

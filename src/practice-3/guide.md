@@ -71,7 +71,7 @@ internal App WireViewModel()
 ```
 
 #### 애플리케이션 시작
-
+- WireViewModel 체인메서드 호출
 ```csharp
 [STAThread]
 static void Main(string[] args)

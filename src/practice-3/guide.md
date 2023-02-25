@@ -69,3 +69,15 @@ internal App WireViewModel()
     return this;
 }
 ```
+
+#### 애플리케이션 시작
+
+```csharp
+[STAThread]
+static void Main(string[] args)
+{
+    _ = new App()
+        .WireViewModel()
+        .Run();
+}
+```

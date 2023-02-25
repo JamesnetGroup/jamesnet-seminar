@@ -62,7 +62,7 @@ protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 
 - WireViewModel 체인 메서드 구현
 
-```
+```csharp
 internal App WireViewModel()
 {
     ViewModelLocationProvider.Register<MainContent, MainContentViewModel>();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JamesStduio.Settings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace JamesStduio
         {
             _ = new App()
                 .WireViewModel()
+                .AddModule<DirectModules>()
                 .Run();
         }
     }

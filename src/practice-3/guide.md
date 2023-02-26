@@ -217,7 +217,7 @@ private void PrismContent_Loaded(object sender, RoutedEventArgs e)
 - [RelayCommand + CanExecute](https://forum.dotnetdev.kr/t/relaycommand-canexecute/5215/7?u=jamesnet)
     
 ```csharp
-sing CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
 namespace JamesCommand
@@ -240,4 +240,4 @@ namespace JamesCommand
         }
     }
 } 
-```
+```   

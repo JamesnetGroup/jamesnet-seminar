@@ -2,6 +2,7 @@
 - [Report 레포 리뷰](#report)
 - [JamesnetWpf 누겟 리뷰](#jamesnetwpf)
 - [TeamViewer2 레포 리뷰](#teamviewer2)
+- [시즌 2 (카카오톡) 범위 정의](#시즌2)
 
 ## Report
 
@@ -36,6 +37,12 @@ https://github.com/jamesnet214/teamviewer2
 - 유저 선택 기능
 - ??
 
+## 시즌 2
+- 주제
+  - 카카오톡 WPF PC 앱
+- 미래계획
+  - 시즌 2 이후 예상
+  - MAUI, Uno, Avalonia UI 등으로의 확장? 고민
 
 ## 경품추첨
 - 찰스패졸드 WPF 책 (used)

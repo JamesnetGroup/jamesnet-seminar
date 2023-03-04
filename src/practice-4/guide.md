@@ -47,3 +47,4 @@ https://github.com/jamesnet214/teamviewer2
 ## 경품추첨
 - 찰스패졸드 WPF 책 (used)
 - Thinkpad 마우스 (new)
+- 게임방식: 빙고

@@ -35,3 +35,8 @@ https://github.com/jamesnet214/teamviewer2
 ### 기능구현 항목 정의
 - 유저 선택 기능
 - ??
+
+
+## 경품추첨
+- 찰스패졸드 WPF 책 (used)
+- Thinkpad 마우스 (new)

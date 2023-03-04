@@ -12,7 +12,7 @@
                             BorderThickness="{TemplateBinding BorderThickness}">
                         <Viewbox Width="100" Height="100">
                             <Canvas Width="24" Height="24">
-                                <Path x:Name="path" Fill="Red" Data="{TemplateBinding Data}" />
+                                <Path x:Name="path" Fill="Red" Data="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Data}" />
                             </Canvas>
                         </Viewbox>
                     </Border>

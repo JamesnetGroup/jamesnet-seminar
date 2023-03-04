@@ -8,6 +8,7 @@ namespace GeometryApp
 {
     public enum IconType
     {
+        None,
         Apple,
         Facebook
     }

@@ -88,7 +88,7 @@
 
 ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png)
 
-## 4회 WPF 스터디 (확정)
+## 4회 WPF 스터디 (종료)
 - 시작일: 2023년 03월 04일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 

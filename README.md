@@ -8,7 +8,7 @@
 **940,000원** 감사합니다.
 
 
-## 1회 WPF 스터디 (종료)
+#### 1회 WPF 스터디 (종료)
 - 시작일: 2023.02.11 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 - [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
@@ -51,7 +51,7 @@
 - 김태균님 
   - 카누 커피 한박스
 
-## 2회 WPF 스터디 (종료)
+#### 2회 WPF 스터디 (종료)
 - 시작일: 2023년 02월 18일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 - [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-study-2/6133)
@@ -68,7 +68,7 @@
 
 ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png)
 
-## 3회 WPF 스터디 (종료)
+#### 3회 WPF 스터디 (종료)
 - 시작일: 2023년 02월 25일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 - [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-3/6211)
@@ -84,7 +84,7 @@
 
 ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png)
 
-## 4회 WPF 스터디 (종료)
+#### 4회 WPF 스터디 (종료)
 - 시작일: 2023년 03월 04일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 
@@ -99,7 +99,7 @@
 
 ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png)
 
-## 5회 WPF 스터디 (확정) 시즌 2
+#### 5회 WPF 스터디 (확정) 시즌 2
 - 시작일: 2023년 03월 18일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
 
@@ -116,4 +116,4 @@ _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, 
   
 [![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)](https://forum.dotnetdev.kr/u/dimohy/summary)
 
-  
+#### 6회 WPF 스터디 (확정) 시즌 2

@@ -67,7 +67,7 @@ jamesnet214/wpf/src/practice-2/WpfApp1/WpfControlLibrary1/UI/Views/MainContent.c
             set => SetProperty(ref _currentItem, value);
         }
 ```
-## CommunityToolkit.Mvvm 패키지를 이용하는 방법
+#### CommunityToolkit.Mvvm 패키지를 이용하는 방법
 CommunityToolkit.Mvvm에서는 값을 갱신하는 부분과 속성 변경을 알려주는 부분의 자동 구현을 소스생성기 기반의 특성으로 제공합니다. 필드를 선언한 후 ObservableProperty 특성을 적용하면 소스 생성기에서 속성을 자동으로 생성해 줍니다. 이때, 필드의 변수명은 lowerCamelCase여야 하며 \_(언더바) 혹은 m_ 등의 접두사가 허용됩니다.
 ```csharp
         [ObservableProperty]

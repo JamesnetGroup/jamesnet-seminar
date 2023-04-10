@@ -27,6 +27,8 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 - ## 제1회
 - 시작일: 2023.02.11 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
+- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
+- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
 <details>
 <summary><b>주요 내용 펼치기</b></summary>
 - Application
@@ -55,16 +57,6 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 - Part_
 </details>
 
-<details>
-<summary><b>강의 후기</b></summary>
-- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
-- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
-</details>
-
-- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
-- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
-
-
 **특별 후원**   
 
 - _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, _정세일님_, _백승찬님_, _정현우님_, _김태균님_, _이광석님_, _권형근님_, _이기호님_, _남지원님_, _황태현님_, _박태영님_, _유동호님_, _이상준님_
@@ -83,7 +75,7 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 
 <details>
 <summary><b>주요 내용 펼치기</b></summary>
-  
+ 작성해주세요
  </details> 
  
 **특별 후원**  
@@ -94,7 +86,6 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 
 - 백승찬님 - (주)커넥트시스템 대표이사
   - 초코하임, 비스킷, 콜라, 비타500
-
 ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png)
 
 ## 제3회 

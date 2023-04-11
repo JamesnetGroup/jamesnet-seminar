@@ -4,12 +4,12 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 
 이 모임은 특정한 형태가 없으며 매주 누구나 자유롭게 신청하여 참여할 있습니다.
 ## 목록
-### 시즌1(완료)
+### 시즌1(종료)
 - [제1회](#제1회)
 - [제2회](#제2회)
 - [제3회](#제3회)
 - [제4회](#제4회)
-### 시즌2(완료_YouTube영상 업로드 완료)
+### 시즌2(종료_YouTube영상 업로드 완료)
 - [제5회](#제5회)
 - [제6회](#제6회)
 - [제7회](#제7회)
@@ -128,7 +128,7 @@ WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행�
 ## 제5회
 - 시작일: 2023년 03월 18일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
-- [YouTube 녹화영상_바로가기](https://www.youtube.com/watch?v=XRKo7svG9-k)
+- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=XRKo7svG9-k)
 
 <details>
 <summary><b>주요 내용 펼치기</b></summary>
@@ -151,7 +151,7 @@ _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, 
 ## 제6회
 - 시작일: 2023년 03월 25일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
-- [YouTube 녹화영상_바로가기](https://www.youtube.com/watch?v=9iBRBRN8pPU)
+- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=9iBRBRN8pPU)
 - [후기 작성하세요] 
 
 <details>
@@ -170,7 +170,7 @@ _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, 
 ## 제7회
 - 시작일: 2023년 04월 01일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
-- [YouTube 녹화영상_바로가기](https://www.youtube.com/watch?v=8nPgWLrhdS0)
+- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=8nPgWLrhdS0)
 - [후기 작성하세요] 
 
 <details>
@@ -188,7 +188,7 @@ _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, 
 ## 제8회
 - 시작일: 2023년 04월 8일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅
-- [YouTube 녹화영상_바로가기](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
+- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
 - [후기 작성하세요] 
 
 <details>

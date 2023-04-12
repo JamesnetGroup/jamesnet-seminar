@@ -27,9 +27,10 @@ _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, 
 
 #### 감사후원
 
-| 커넥트시스템 | 인프라지스틱스 |
-|:----------:|:--------------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) |
+| 커넥트시스템 | 인프라지스틱스 | 김태균님 |
+|:----------:|:--------------:|:-------:|
+| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |
+
 
  ## 제1회
 - 시작일: 2023.02.11 토요일 (13:00 ~ 17:00)
@@ -121,7 +122,8 @@ _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, 
 
 | 커넥트시스템 | 인프라지스틱스 | 정세일님(Dimohy) | 임화식님 |
 |:----------:|:--------------:|:--------------: |:----------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)| |
+| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)| ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |
+
 
 ## 제5회
 - 시작일: 2023년 03월 18일 토요일 (13:00 ~ 17:00)

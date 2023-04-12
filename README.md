@@ -140,7 +140,6 @@ _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, 
 - 이광석님 (Youtube 실시간 스트리밍, OBS 방송 설정 및 리허설 지원)
 - 정세일님(dimohy) - 신구대학 겸임 교수, 닷넷데브 운영진, (주)마음인 CTO, Microsoft MVP (음료/간식)
   
-[![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)](https://forum.dotnetdev.kr/u/dimohy/summary)
 
 ## 제6회
 - 시작일: 2023년 03월 25일 토요일 (13:00 ~ 17:00)
@@ -191,6 +190,12 @@ _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, 
 
 # 시즌 3(진행확정)
 [스터디 모집설명](https://forum.dotnetdev.kr/t/wpf-3/6795)
+
+
+| 커넥트시스템 | 인프라지스틱스 | 김진석 대표님 | - |
+|:----------:|:--------------:|:--------------: |:----------:|
+| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |  |
+
 ## 제9회
 - 강의예정일: 2023년 04월 29일 토요일 (13:00 ~ 17:00)
 - 발표자: 이재웅

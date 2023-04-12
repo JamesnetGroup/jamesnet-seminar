@@ -192,9 +192,11 @@ _고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, 
 [스터디 신청 바로가기](https://forum.dotnetdev.kr/t/wpf-3/6795)
 
 
-| 커넥트시스템 | 인프라지스틱스 | 김진석 대표님 | - |
+| 커넥트시스템 | 인프라지스틱스 | KH SYSTEMS | - |
 |:----------:|:--------------:|:--------------: |:----------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |  |
+| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![image](https://user-images.githubusercontent.com/52397976/231384616-3819e4e0-2701-4b06-9184-7ccdba3747e4.png) |  |
+
+
 
 ## 제9회
 - 강의예정일: 2023년 04월 29일 토요일 (13:00 ~ 17:00)

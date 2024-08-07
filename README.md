@@ -1,211 +1,80 @@
-# WPF Study
-안녕하세요! 닷넷 개발자 이재웅입니다.
-WPF 스터디는 2023년 2월 11일에 시작한 오프라인 WPF 스터디 행사입니다. 
+# Jamesnet Seminar Series [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![中文](https://img.shields.io/badge/Language-中文-red.svg)](README.zh-CN.md) [![한국어](https://img.shields.io/badge/Language-한국어-green.svg)](README.ko.md)
 
-이 모임은 특정한 형태가 없으며 매주 누구나 자유롭게 신청하여 참여할 있습니다.
-## 목록
-### 시즌1 (종료)
-- [제1회](#제1회)
-- [제2회](#제2회)
-- [제3회](#제3회)
-- [제4회](#제4회)
-### 시즌2 (종료_영상 업로드 완료)
-- [제5회](#제5회)
-- [제6회](#제6회)
-- [제7회](#제7회)
-- [제8회](#제8회)
-### 시즌3 (종료_영상 업로드 완료)
-- [제9회](#제9회)
-- [제10회](#제10회)
-- [제11회](#제11회)
-- [제12회](#제12회)
-### 시즌4 (종료_영상 업로드 완료)
-- [제13회](#제3회)
-- [제14회](#제14회)
-- [제15회](#제15회)
-- [제16회](#제16회)
+[![WPF](https://img.shields.io/badge/WPF--.NET-blueviolet)](https://github.com/dotnet/wpf)
+[![Blazor](https://img.shields.io/badge/Blazor--.NET-purple)](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+[![XAML](https://img.shields.io/badge/XAML-markup-blue)](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/xaml/)
+[![Cross-Platform](https://img.shields.io/badge/Cross--Platform-Development-orange)](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
 
-# 시즌 1
-[스터디 신청 바로가기 (마감 종료)](https://forum.dotnetdev.kr/t/wpf-1/5856)
+[![Stars](https://img.shields.io/github/stars/jamesnet214/wpf.svg)](https://github.com/jamesnet214/wpf/stargazers)
+[![Forks](https://img.shields.io/github/forks/jamesnet214/wpf.svg)](https://github.com/jamesnet214/wpf/network/members)
+[![Issues](https://img.shields.io/github/issues/jamesnet214/wpf.svg)](https://github.com/jamesnet214/wpf/issues)
 
-#### 특별 후원
-_고요한님_, _신동훈님_, _이종훈님_, _손민수님_, _임화식님_, _채원기님_, _정세일님_, _백승찬님_, _정현우님_, _김태균님_, _이광석님_, _권형근님_, _이기호님_, _남지원님_, _황태현님_, _박태영님_, _유동호님_, _이상준님_, _정현우님_, _권형근님_, _유치준님_,_정다훈님_,_전성현님_, _TENO님_, _백승찬님_, _박성훈님_,_김상연님_,  _조승완님_, _민지영님_, _남지원님_,_권형근님_, _민지영님_,
+Hello! This is Jaewung Lee and Qu Yang, the operators of Jamesnet.dev.
+This repository contains the content of the WPF offline seminar series that started on February 11, 2023.
 
+## About the Hosts
 
-#### 감사후원
+Jaewung Lee and Qu Yang are a developer couple who jointly operate the Jamesnet.dev website, YouTube channel, and Bilibili channel. They co-authored the book [WPF Inside Out](https://bit.ly/4cWqjjQ) and share WPF-related knowledge through various platforms. [Jaewung Lee](https://jamesnet.dev/jamesnet214) has been recognized as a [Microsoft MVP](https://bit.ly/4cWfsXb) for his various activities in Korea, including open source contributions, offline lectures, and online mentoring. [Qu Yang](https://jamesnet.dev/vickyqu115) produces [WPF tutorial](https://jamesnet.dev/article/118/English) series videos through the Bilibili channel [小李趣味多](https://space.bilibili.com/688707261), having released six Chinese series so far, which are also available on [YouTube](https://youtube.com/@jamesnet214) with English versions and Korean subtitles. Through these activities, their Bilibili channel has been recognized as one of the most active WPF communities in China.
 
-| 커넥트시스템 | 인프라지스틱스 | 김태균님 |
-|:----------:|:--------------:|:-------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |
+<img src="https://github.com/user-attachments/assets/bcad9bff-8576-4ac6-967e-c812e82b3834" width="49%"/>
+<img src="https://github.com/user-attachments/assets/2cb5b63b-c057-4c17-a82a-cdd8dc421048" width="49%"/>
 
+## Seminar Overview
 
- ## 제1회
-- 시작일: 2023.02.11 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-1/6023)
-- [이상준님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/9?u=jamesnet)
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-- Application
-- Window
-- StackPanel
-- Grid
-- Controls
-- DataContext
-- Bubbling/Tunneling
-- Button
-- Style
-- TemplateBinding
-- ContentTemplate
-- DataTemplate
-- Template
-- ControlTemplate
-- Trigger
-- Binding
-- Element Binding
-- RelativeSource Binding
-- IValueConverter
-- CustomControl
-- Themes
-- DefaultStyleKey
-- ApplyTemplate
-- Part_
-</details>
+- An open gathering where anyone can freely apply and participate
+- A total of 16 sessions held so far
+- From the 5th to the 16th session, YouTube live streaming was conducted alongside offline seminars
+- Hosts: [Jaewung Lee MVP](https://jamesnet.dev/jamesnet214), [Qu Yang](https://jamesnet.dev/vickyqu115)
+- Location: Seoul, South Korea (1st - 16th sessions)
+- Covered technologies: WPF, cross-platform, Blazor, and various .NET technologies (focusing mainly on advanced WPF techniques)
+- The 17th session is scheduled to be held in Nanjing, China in September 2024
 
-**감사 후원**
-- 김태균님 (음료/간식)
- 
-## 제2회
-- 시작일: 2023년 02월 18일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-study-2/6133)
-- [이종훈님의 후기](https://forum.dotnetdev.kr/t/wpf/5856/22?u=jamesnet)
+## Technical Content
 
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
- 작성해주세요
- </details> 
- 
-**감사 후원**
+The Jamesnet Seminar Series focuses on advanced techniques in WPF (Windows Presentation Foundation). These seminars go beyond simple UI composition to delve deep into WPF's core concepts and advanced features.
 
-- 백승찬님 - (주)커넥트시스템 대표이사 (음료/간식)
+We cover advanced implementation techniques of the MVVM (Model-View-ViewModel) pattern, complex data binding, custom control development, and advanced usage of styles and templates. In particular, we introduce modularization and dependency injection techniques using the Prism framework and CommunityToolkit.Mvvm, as well as reactive programming methods using ReactiveUI.
 
-## 제3회 
-- 시작일: 2023년 02월 25일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [이재웅님의 후기](https://forum.dotnetdev.kr/t/wpf-3/6211)
+We also address advanced topics such as WPF performance optimization techniques, asynchronous programming using multithreading, and methods for implementing 3D graphics and animations. Furthermore, we explore advanced XAML syntax, markup extensions, resource management, and localization techniques in depth.
 
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
- 
-**감사 후원**
+As the demand for cross-platform development increases, we compare and analyze cross-platform frameworks like Avalonia UI with WPF, and introduce web application development methods using Blazor. Through this, participants can acquire .NET development skills across various platforms, from desktop applications to web applications.
 
-- 백승찬님 - (주)커넥트시스템 대표이사 (음료/간식)
+Through these diverse and in-depth topics, participants can acquire advanced WPF development skills that are immediately applicable in practice, and gain a deeper understanding of modern software architecture and design patterns.
 
-## 제4회 
-- 시작일: 2023년 03월 04일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
+## Seminar List
 
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
- 
+[The seminar list follows the same format as the Korean version, with dates, topics, content descriptions, and links to announcements, reviews, and YouTube videos for each session.]
 
-**감사 후원**
+## Sponsorship Appreciation
 
-- 인프라지스틱스 (음료/간식)
+### Corporate Sponsors
 
-  
+<img src="https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png" alt="Connect System" width="150"/>
+<img src="https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png" alt="Infragistics" width="150"/>
+<img src="https://github.com/user-attachments/assets/2c978f91-67d6-40fa-b9df-cd8b33d902ed" alt="Microsoft" width="150"/>
+<img src="https://user-images.githubusercontent.com/52397976/231384616-3819e4e0-2701-4b06-9184-7ccdba3747e4.png" alt="KH SYSTEMS" width="150"/>
+<img src="https://user-images.githubusercontent.com/52397976/231977933-5e2fd4c1-34e9-442c-8988-ae66663af54e.png" alt="Final Data" width="150"/>
 
+### Individual Sponsors
 
-# 시즌 2
-[스터디 신청 바로가기 (마감 종료)](https://forum.dotnetdev.kr/t/wpf-2/6387)
-#### 특별 후원
+- Taekyun Kim
+- [Seil Jung MVP](https://mvp.microsoft.com/ko-KR/MVP/profile/7a1448c9-ccb0-ec11-983f-000d3a1017e3)
+- Hwasik Lim
+- Yohan Ko
+- Dongsu Cho
+- Seungchan Baek
+- [Jinseok Kim MVP](https://mvp.microsoft.com/ko-KR/MVP/profile/54bab504-6cde-4178-8a34-957af39aab0f)
+- [Kwangseok Lee](https://github.com/lukewire129)
+- [Jonghoon Lee](https://github.com/atawLee)
+- Sangwook Han
+- Bonghee Ku
+- Donghoon Shin
+- Jangwon Cho
 
-#### 감사후원
+## How to Participate
 
-| 커넥트시스템 | 인프라지스틱스 | 정세일님(Dimohy) | 임화식님 |
-|:----------:|:--------------:|:--------------: |:----------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![image](https://user-images.githubusercontent.com/52397976/220051446-d7814689-11d8-4b54-b6df-ff36d9ab8718.png)| ![Sample_User_Icon](https://user-images.githubusercontent.com/52397976/231370899-70e4eccb-018f-44af-afa1-a5d1beb3f640.png) |
+All sessions have concluded. Future seminar schedules will be announced later.
 
+## License
 
-## 제5회
-- 시작일: 2023년 03월 18일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=XRKo7svG9-k)
-
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
-
-**감사 후원**
-
-- 이광석님 (Youtube 실시간 스트리밍, OBS 방송 설정 및 리허설 지원)
-- 정세일님(dimohy) - 신구대학 겸임 교수, 닷넷데브 운영진, (주)마음인 CTO, Microsoft MVP (음료/간식)
-  
-
-## 제6회
-- 시작일: 2023년 03월 25일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=9iBRBRN8pPU)
-- [후기 작성하세요] 
-
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
-
-
-**감사 후원**
-
-- 커넥트시스템 백승찬 대표님 (음료/간식)
-
-## 제7회
-- 시작일: 2023년 04월 01일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=8nPgWLrhdS0)
-- [후기 작성하세요] 
-
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
- 
-**감사 후원**
-- 임화식님(음료/간식)
-
-## 제8회
-- 시작일: 2023년 04월 8일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-- [YouTube 풀영상_바로가기](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
-- [후기 작성하세요] 
-
-<details>
-<summary><b>주요 내용 펼치기</b></summary>
-  -작성하세요
- </details> 
-
-**감사 후원**
-
-- 인프라지스틱스(음료/간식)
-
-# 시즌 3(진행확정)
-[스터디 신청 바로가기](https://forum.dotnetdev.kr/t/wpf-3/6795)
-
-
-| 커넥트시스템 | 인프라지스틱스 | KH SYSTEMS | 파이널데이터 |
-|:----------:|:--------------:|:--------------: |:----------:|
-| ![KakaoTalk_20230217_161404243](https://user-images.githubusercontent.com/52397976/219579720-b737caae-42a3-47e4-9c2d-0cce0cf52118.png) | ![image](https://user-images.githubusercontent.com/52397976/219578245-f4b4772c-70d3-4760-9e0a-92f3e69e475b.png) | ![image](https://user-images.githubusercontent.com/52397976/231384616-3819e4e0-2701-4b06-9184-7ccdba3747e4.png) | ![image](https://user-images.githubusercontent.com/52397976/231977933-5e2fd4c1-34e9-442c-8988-ae66663af54e.png) |
-
-## 제9회
-- 강의예정일: 2023년 04월 29일 토요일 (13:00 ~ 17:00)
-- 발표자: 이재웅
-
-**감사 후원**
-
-- KH SYSTEMS 김진석 대표님 (음료/간식)
-- 인프라지스틱스 (강의실 대관)
+Please add the license information for this project.

@@ -17,8 +17,8 @@
 
 이재웅과 구양은 Jamesnet.dev 웹사이트, 유튜브, 그리고 빌리빌리 채널을 함께 운영 중인 개발자 부부입니다. [WPF Inside Out](https://bit.ly/4cWqjjQ) 책을 공동 집필하였으며, 다양한 플랫폼을 통해 WPF 관련 지식을 공유하고 있습니다. [이재웅](https://jamesnet.dev/jamesnet214)은 한국에서의 오픈소스, 오프라인 강연, 온라인 멘토링 등 다양한 활동을 인정받아 [Microsoft MVP](https://bit.ly/4cWfsXb)로 선정되어 활동 중입니다. [구양](https://jamesnet.dev/vickyqu115)은 빌리빌리 채널 [小李趣味多](https://space.bilibili.com/688707261)를 통해 [WPF 튜토리얼](https://jamesnet.dev/article/118/English) 시리즈 영상을 제작하고 있으며, 현재까지 6개의 중국어 시리즈를 공개했고 [유튜브](https://youtube.com/@jamesnet214)를 통해 영어 버전과 한국어 자막으로도 제공하고 있습니다. 이러한 활동들을 통해 빌리빌리 채널은 중국에서 가장 활성화된 WPF 커뮤니티 중 하나로 인정받고 있습니다.
 
-<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
-<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
+<img src="https://github.com/user-attachments/assets/bcad9bff-8576-4ac6-967e-c812e82b3834" width="49%"/>
+<img src="https://github.com/user-attachments/assets/2cb5b63b-c057-4c17-a82a-cdd8dc421048" width="49%"/>
 
 ## 세미나 개요
 
@@ -53,104 +53,104 @@ MVVM(Model-View-ViewModel) 패턴의 고급 구현 기법을 비롯해, 복잡�
 ### 제2회 (2023.02.18, 13:00 ~ 17:00)
 - 주제: ListBox와 고급 WPF 기능
 - 내용: CustomControl, DependencyProperty, ICommand 등
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/56)
+- [세미나 후기](https://jamesnet.dev/article/83)
 
 ### 제3회 (2023.02.25, 13:00 ~ 17:00)
 - 주제: Prism 및 CommunityToolkit.Mvvm
 - 내용: PrismApplication, ViewModelLocationProvider, Regions
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/57)
+- [세미나 후기](https://jamesnet.dev/article/84)
 
 ### 제4회 (2023.03.04, 13:00 ~ 17:00)
 - 주제: Jamesnet 세미나 시즌 1 마무리
 - 내용: 피드백 수집 및 다음 시즌 "카카오톡 만들기" 프로젝트 소개
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/59)
+- [세미나 후기](https://jamesnet.dev/article/52)
 
 ### 제5회 (2023.03.18, 13:00 ~ 17:00)
 - 주제: "카카오톡 만들기" 프로젝트 시작
 - 내용: Kakao 프로젝트 생성, CustomControls, 로그인 명령 구현
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/60)
+- [세미나 후기](https://jamesnet.dev/article/54)
 - [YouTube 풀영상](https://www.youtube.com/watch?v=XRKo7svG9-k)
 
 ### 제6회 (2023.03.25, 13:00 ~ 17:00)
 - 주제: Border와 Windows 관리
 - 내용: UI 레이아웃 디자인, Windows 관리, Content 및 Content Template
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/61)
+- [세미나 후기](https://jamesnet.dev/article/85)
 - [YouTube 풀영상](https://www.youtube.com/watch?v=9iBRBRN8pPU)
 
 ### 제7회 (2023.04.01, 13:00 ~ 17:00)
 - 주제: KakaoTalk 주요 기능 구현
 - 내용: VirtualMenuList, FriendsBox, MVVM 구조, Command 패턴, CustomControls
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/62)
+- [세미나 후기](https://jamesnet.dev/article/88)
 - [YouTube 풀영상](https://www.youtube.com/watch?v=8nPgWLrhdS0)
 
 ### 제8회 (2023.04.08, 13:00 ~ 17:00)
 - 주제: OAUTH 로그인 인증 구현
 - 내용: Google 인증, WebView2 라이브러리, WPF와 웹 콘텐츠 상호작용
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
+- [세미나 공지](https://jamesnet.dev/article/63)
+- [세미나 후기](https://jamesnet.dev/article/86)
 - [YouTube 풀영상](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
 
 ### 제9회 (2023.04.29, 13:00 ~ 17:00)
 - 주제: ContentControl 심층 연구
 - 내용: ContentControl 파생 컨트롤, Content 사용, ContentTemplate 적용
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/64)
+- [세미나 후기](https://jamesnet.dev/article/87)
+- [YouTube 풀영상](https://www.youtube.com/watch?v=PZXfi3niYPw)
 
 ### 제10회 (2023.05.06, 13:00 ~ 17:00)
 - 주제: 버블링 및 터널링 이벤트, 테마 디자인
 - 내용: DynamicResource를 활용한 테마 디자인, 다국어 지원
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/65)
+- [세미나 후기](https://jamesnet.dev/article/89)
+- [YouTube 풀영상](https://www.youtube.com/live/K7iK0KoA9gc?si=QeiksBjiM_6gqSW0)
 
 ### 제11회 (2023.05.13, 13:00 ~ 17:00)
 - 주제: 버블링 및 터널링 이벤트, 테마 디자인 (심화)
 - 내용: 코드 비하인드를 통한 애플리케이션 및 ResourceDictionaries 관리
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/66)
+- [세미나 후기](https://jamesnet.dev/article/94)
+- [YouTube 풀영상](https://www.youtube.com/live/ukoctBWiAIU?si=EwI2rD9_GyGsSpMB)
 
 ### 제12회 (2023.05.20, 13:00 ~ 17:00)
 - 주제: 프로젝트 모듈화 설계
 - 내용: WPF 기본 구성 요소 이해, 독립적 프로젝트 구성, TreeView 사용 사례 연구
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/67)
+- [세미나 후기](https://jamesnet.dev/article/91)
+- [YouTube 풀영상](https://www.youtube.com/live/CQxhYiFqEv4?si=m4MeL9V1-Nz5nuyt)
 
 ### 제13회 (2023.08.26, 13:00 ~ 17:00)
 - 주제: WPF 탐색기 애플리케이션 구현
 - 내용: 프로젝트 모듈화, 모듈화 전략, Support 프로젝트를 통한 ContentControl 설계
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/68)
+- [세미나 후기](https://jamesnet.dev/article/92)
+- [YouTube 풀영상](https://www.youtube.com/live/5Pt-IvEogWU?si=RBwdTJ-lQIa61_eN)
 
 ### 제14회 (2023.09.02, 13:00 ~ 17:00)
 - 주제: StreamGeometry를 통한 아이콘 표현 최적화
 - 내용: CustomControl의 역할, .NET Core 종속성 관리, Jamesnet.Wpf 사용
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/69)
+- [세미나 후기](https://jamesnet.dev/article/90)
+- [YouTube 풀영상](https://www.youtube.com/live/KtjC8a-BA1g?si=hOEZt7mW2tEL2s6Y)
 
 ### 제15회 (2023.09.09, 13:00 ~ 17:00)
 - 주제: 뷰 지역 분할 및 구조화
 - 내용: ContentPresenter 확장, BasedOn 기술, PART_ 템플릿 부분 규칙, Singleton 인스턴스
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/70)
+- [세미나 후기](https://jamesnet.dev/article/93)
+- [YouTube 풀영상](https://www.youtube.com/live/y3xjQ48tHYM?si=EfvTliuW4EgK3tp3)
 
 ### 제16회 (2023.09.16, 13:00 ~ 17:00)
 - 주제: Prism 프레임워크 및 CommunityToolkit.Mvvm
 - 내용: MVVM 패턴 구현, 다수의 ItemsControl 계층적 사용
-- [세미나 공지](https://jamesnet.dev/article/[공지_글_번호])
-- [세미나 후기](https://jamesnet.dev/article/[후기_글_번호])
-- [YouTube 풀영상](https://www.youtube.com/watch?v=[영상_ID])
+- [세미나 공지](https://jamesnet.dev/article/71)
+- [세미나 후기](https://jamesnet.dev/article/108)
+- [YouTube 풀영상](https://www.youtube.com/live/vsO2nrqcojk?si=GmgOAcZ80f51rBUy)
 
 ## 감사 후원
 
@@ -165,14 +165,14 @@ MVVM(Model-View-ViewModel) 패턴의 고급 구현 기법을 비롯해, 복잡�
 ### 개인 후원
 
 - 김태균
-- 정세일 MVP
+- [정세일 MVP](https://mvp.microsoft.com/ko-KR/MVP/profile/7a1448c9-ccb0-ec11-983f-000d3a1017e3)
 - 임화식
 - 고요한
 - 조동수
 - 백승찬
-- 김진석 MVP
-- 이광석
-- 이종훈
+- [김진석 MVP](https://mvp.microsoft.com/ko-KR/MVP/profile/54bab504-6cde-4178-8a34-957af39aab0f)
+- [이광석](https://github.com/lukewire129)
+- [이종훈](https://github.com/atawLee)
 - 한상욱
 - 구봉희
 - 신동훈

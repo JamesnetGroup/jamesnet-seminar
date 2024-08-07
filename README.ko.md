@@ -17,6 +17,11 @@
 
 이재웅과 구양은 Jamesnet.dev 웹사이트, 유튜브, 그리고 빌리빌리 채널을 함께 운영 중인 개발자 부부입니다. [WPF Inside Out](https://bit.ly/4cWqjjQ) 책을 공동 집필하였으며, 다양한 플랫폼을 통해 WPF 관련 지식을 공유하고 있습니다. [이재웅](https://jamesnet.dev/jamesnet214)은 한국에서의 오픈소스, 오프라인 강연, 온라인 멘토링 등 다양한 활동을 인정받아 [Microsoft MVP](https://bit.ly/4cWfsXb)로 선정되어 활동 중입니다. [구양](https://jamesnet.dev/vickyqu115)은 빌리빌리 채널 [小李趣味多](https://space.bilibili.com/688707261)를 통해 [WPF 튜토리얼](https://jamesnet.dev/article/118/English) 시리즈 영상을 제작하고 있으며, 현재까지 6개의 중국어 시리즈를 공개했고 [유튜브](https://youtube.com/@jamesnet214)를 통해 영어 버전과 한국어 자막으로도 제공하고 있습니다. 이러한 활동들을 통해 빌리빌리 채널은 중국에서 가장 활성화된 WPF 커뮤니티 중 하나로 인정받고 있습니다.
 
+<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
+<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
+<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
+<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
+
 ## 세미나 개요
 
 - 누구나 자유롭게 신청하여 참여할 수 있는 열린 모임

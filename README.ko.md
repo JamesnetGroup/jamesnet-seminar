@@ -19,8 +19,6 @@
 
 <img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
 <img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
-<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
-<img src="https://github.com/user-attachments/assets/53624896-5768-48d4-9289-630efc6ad0e2" width="49%"/>
 
 ## 세미나 개요
 

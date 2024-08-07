@@ -77,4 +77,11 @@ All sessions have concluded. Future seminar schedules will be announced later.
 
 ## License
 
-Please add the license information for this project.
+This project is provided under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+
+## Contact
+
+* Website: https://jamesnet.dev
+* Email: james@jamesnet.dev, vickyqu115@hotmail.com
+
+We are committed to the advancement of WPF technology. We look forward to your participation.

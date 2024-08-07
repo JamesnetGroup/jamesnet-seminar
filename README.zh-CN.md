@@ -77,4 +77,11 @@ Jamesnet 研讨会系列专注于 WPF（Windows Presentation Foundation）的高
 
 ## 许可证
 
-请为此项目添加许可证信息。
+本项目基于 MIT 许可证提供。详细信息请参阅 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+* 网站：https://jamesnet.dev
+* 邮箱：james@jamesnet.dev, vickyqu115@hotmail.com
+
+我们致力于推动 WPF 技术的发展。期待您的参与。

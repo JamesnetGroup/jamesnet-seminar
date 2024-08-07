@@ -184,4 +184,11 @@ MVVM(Model-View-ViewModel) 패턴의 고급 구현 기법을 비롯해, 복잡�
 
 ## 라이선스
 
-이 프로젝트의 라이선스 정보를 추가해주세요.
+이 프로젝트는 MIT 라이선스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
+## 연락처
+
+* Website: https://jamesnet.dev
+* Email: james@jamesnet.dev, vickyqu115@hotmail.com
+
+WPF 기술의 발전과 함께하겠습니다. 여러분의 참여를 기다립니다.

@@ -43,7 +43,113 @@ Through these diverse and in-depth topics, participants can acquire advanced WPF
 
 ## Seminar List
 
-[The seminar list follows the same format as the Korean version, with dates, topics, content descriptions, and links to announcements, reviews, and YouTube videos for each session.]
+### 1st Seminar (2023.02.11, 13:00 ~ 17:00)
+- Topic: From WPF Basics to Advanced Topics
+- Content: Applications, Windows, StackPanel, Grid, Border, Button and various controls, Data Binding, Custom Controls
+- [Seminar Announcement](https://jamesnet.dev/article/55)
+- [Seminar Review](https://jamesnet.dev/article/58)
+
+### 2nd Seminar (2023.02.18, 13:00 ~ 17:00)
+- Topic: ListBox and Advanced WPF Features
+- Content: CustomControl, DependencyProperty, ICommand, etc.
+- [Seminar Announcement](https://jamesnet.dev/article/56)
+- [Seminar Review](https://jamesnet.dev/article/83)
+
+### 3rd Seminar (2023.02.25, 13:00 ~ 17:00)
+- Topic: Prism and CommunityToolkit.Mvvm
+- Content: PrismApplication, ViewModelLocationProvider, Regions
+- [Seminar Announcement](https://jamesnet.dev/article/57)
+- [Seminar Review](https://jamesnet.dev/article/84)
+
+### 4th Seminar (2023.03.04, 13:00 ~ 17:00)
+- Topic: Jamesnet Seminar Season 1 Wrap-up
+- Content: Feedback collection and introduction to next season's "Creating KakaoTalk" project
+- [Seminar Announcement](https://jamesnet.dev/article/59)
+- [Seminar Review](https://jamesnet.dev/article/52)
+
+### 5th Seminar (2023.03.18, 13:00 ~ 17:00)
+- Topic: Starting the "Creating KakaoTalk" Project
+- Content: Creating Kakao project, CustomControls, implementing login command
+- [Seminar Announcement](https://jamesnet.dev/article/60)
+- [Seminar Review](https://jamesnet.dev/article/54)
+- [Full YouTube Video](https://www.youtube.com/watch?v=XRKo7svG9-k)
+
+### 6th Seminar (2023.03.25, 13:00 ~ 17:00)
+- Topic: Border and Windows Management
+- Content: UI layout design, Windows management, Content and Content Template
+- [Seminar Announcement](https://jamesnet.dev/article/61)
+- [Seminar Review](https://jamesnet.dev/article/85)
+- [Full YouTube Video](https://www.youtube.com/watch?v=9iBRBRN8pPU)
+
+### 7th Seminar (2023.04.01, 13:00 ~ 17:00)
+- Topic: Implementing KakaoTalk's Main Features
+- Content: VirtualMenuList, FriendsBox, MVVM structure, Command pattern, CustomControls
+- [Seminar Announcement](https://jamesnet.dev/article/62)
+- [Seminar Review](https://jamesnet.dev/article/88)
+- [Full YouTube Video](https://www.youtube.com/watch?v=8nPgWLrhdS0)
+
+### 8th Seminar (2023.04.08, 13:00 ~ 17:00)
+- Topic: Implementing OAUTH Login Authentication
+- Content: Google authentication, WebView2 library, Interaction between WPF and web content
+- [Seminar Announcement](https://jamesnet.dev/article/63)
+- [Seminar Review](https://jamesnet.dev/article/86)
+- [Full YouTube Video](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
+
+### 9th Seminar (2023.04.29, 13:00 ~ 17:00)
+- Topic: In-depth Study of ContentControl
+- Content: ContentControl derived controls, Content usage, ContentTemplate application
+- [Seminar Announcement](https://jamesnet.dev/article/64)
+- [Seminar Review](https://jamesnet.dev/article/87)
+- [Full YouTube Video](https://www.youtube.com/watch?v=PZXfi3niYPw)
+
+### 10th Seminar (2023.05.06, 13:00 ~ 17:00)
+- Topic: Bubbling and Tunneling Events, Theme Design
+- Content: Theme design using DynamicResource, Multi-language support
+- [Seminar Announcement](https://jamesnet.dev/article/65)
+- [Seminar Review](https://jamesnet.dev/article/89)
+- [Full YouTube Video](https://www.youtube.com/live/K7iK0KoA9gc?si=QeiksBjiM_6gqSW0)
+
+### 11th Seminar (2023.05.13, 13:00 ~ 17:00)
+- Topic: Bubbling and Tunneling Events, Theme Design (Advanced)
+- Content: Application and ResourceDictionaries management through code-behind
+- [Seminar Announcement](https://jamesnet.dev/article/66)
+- [Seminar Review](https://jamesnet.dev/article/94)
+- [Full YouTube Video](https://www.youtube.com/live/ukoctBWiAIU?si=EwI2rD9_GyGsSpMB)
+
+### 12th Seminar (2023.05.20, 13:00 ~ 17:00)
+- Topic: Project Modularization Design
+- Content: Understanding WPF basic components, Independent project configuration, TreeView use case study
+- [Seminar Announcement](https://jamesnet.dev/article/67)
+- [Seminar Review](https://jamesnet.dev/article/91)
+- [Full YouTube Video](https://www.youtube.com/live/CQxhYiFqEv4?si=m4MeL9V1-Nz5nuyt)
+
+### 13th Seminar (2023.08.26, 13:00 ~ 17:00)
+- Topic: Implementing WPF Explorer Application
+- Content: Project modularization, Modularization strategy, ContentControl design through Support project
+- [Seminar Announcement](https://jamesnet.dev/article/68)
+- [Seminar Review](https://jamesnet.dev/article/92)
+- [Full YouTube Video](https://www.youtube.com/live/5Pt-IvEogWU?si=RBwdTJ-lQIa61_eN)
+
+### 14th Seminar (2023.09.02, 13:00 ~ 17:00)
+- Topic: Icon Expression Optimization through StreamGeometry
+- Content: Role of CustomControl, .NET Core dependency management, Using Jamesnet.Wpf
+- [Seminar Announcement](https://jamesnet.dev/article/69)
+- [Seminar Review](https://jamesnet.dev/article/90)
+- [Full YouTube Video](https://www.youtube.com/live/KtjC8a-BA1g?si=hOEZt7mW2tEL2s6Y)
+
+### 15th Seminar (2023.09.09, 13:00 ~ 17:00)
+- Topic: View Region Division and Structuring
+- Content: ContentPresenter extension, BasedOn technique, PART_ template partial rules, Singleton instances
+- [Seminar Announcement](https://jamesnet.dev/article/70)
+- [Seminar Review](https://jamesnet.dev/article/93)
+- [Full YouTube Video](https://www.youtube.com/live/y3xjQ48tHYM?si=EfvTliuW4EgK3tp3)
+
+### 16th Seminar (2023.09.16, 13:00 ~ 17:00)
+- Topic: Prism Framework and CommunityToolkit.Mvvm
+- Content: MVVM pattern implementation, Hierarchical use of multiple ItemsControls
+- [Seminar Announcement](https://jamesnet.dev/article/71)
+- [Seminar Review](https://jamesnet.dev/article/108)
+- [Full YouTube Video](https://www.youtube.com/live/vsO2nrqcojk?si=GmgOAcZ80f51rBUy)
 
 ## Sponsorship Appreciation
 

@@ -41,9 +41,94 @@ Jamesnet 研讨会系列专注于 WPF（Windows Presentation Foundation）的高
 
 通过这些多样化和深入的主题，参与者可以获得在实践中立即适用的高级 WPF 开发技能，并对现代软件架构和设计模式有更深入的理解。
 
-## 研讨会列表
+## 讲座列表
 
-[研讨会列表遵循与韩语版相同的格式，包括每次会议的日期、主题、内容描述以及公告、回顾和 YouTube 视频的链接。]
+### 第一期 (2023.02.11, 13:00 ~ 17:00)
+- 主题：从WPF基础到高级主题
+- 内容：应用程序、窗口、StackPanel、Grid、Border、Button等各种控件，数据绑定，自定义控件
+- [讲座公告](https://jamesnet.dev/article/55)
+- [讲座回顾](https://jamesnet.dev/article/58)
+
+### 第二期 (2023.02.18, 13:00 ~ 17:00)
+- 主题：ListBox和高级WPF功能
+- 内容：CustomControl、DependencyProperty、ICommand等
+- [讲座公告](https://jamesnet.dev/article/56)
+- [讲座回顾](https://jamesnet.dev/article/83)
+
+### 第三期 (2023.02.25, 13:00 ~ 17:00)
+- 主题：Prism和CommunityToolkit.Mvvm
+- 内容：PrismApplication、ViewModelLocationProvider、Regions
+- [讲座公告](https://jamesnet.dev/article/57)
+- [讲座回顾](https://jamesnet.dev/article/84)
+
+### 第四期 (2023.03.04, 13:00 ~ 17:00)
+- 主题：Jamesnet讲座第一季总结
+- 内容：收集反馈并介绍下一季的"创建KakaoTalk"项目
+- [讲座公告](https://jamesnet.dev/article/59)
+- [讲座回顾](https://jamesnet.dev/article/52)
+
+### 第五期 (2023.03.18, 13:00 ~ 17:00)
+- 主题：开始"创建KakaoTalk"项目
+- 内容：创建Kakao项目，CustomControls，实现登录命令
+- [讲座公告](https://jamesnet.dev/article/60)
+- [讲座回顾](https://jamesnet.dev/article/54)
+- [YouTube完整视频](https://www.youtube.com/watch?v=XRKo7svG9-k)
+
+### 第六期 (2023.03.25, 13:00 ~ 17:00)
+- 主题：Border和Windows管理
+- 内容：UI布局设计，Windows管理，Content和Content Template
+- [讲座公告](https://jamesnet.dev/article/61)
+- [讲座回顾](https://jamesnet.dev/article/85)
+- [YouTube完整视频](https://www.youtube.com/watch?v=9iBRBRN8pPU)
+
+### 第七期 (2023.04.01, 13:00 ~ 17:00)
+- 主题：实现KakaoTalk的主要功能
+- 内容：VirtualMenuList，FriendsBox，MVVM结构，Command模式，CustomControls
+- [讲座公告](https://jamesnet.dev/article/62)
+- [讲座回顾](https://jamesnet.dev/article/88)
+- [YouTube完整视频](https://www.youtube.com/watch?v=8nPgWLrhdS0)
+
+### 第八期 (2023.04.08, 13:00 ~ 17:00)
+- 主题：实现OAUTH登录认证
+- 内容：Google认证，WebView2库，WPF与网页内容的交互
+- [讲座公告](https://jamesnet.dev/article/63)
+- [讲座回顾](https://jamesnet.dev/article/86)
+- [YouTube完整视频](https://www.youtube.com/watch?v=ft9Pn_Id3-8&t=9903s)
+
+### 第九期 (2023.04.29, 13:00 ~ 17:00)
+- 主题：ContentControl深入研究
+- 内容：ContentControl派生控件，Content使用，ContentTemplate应用
+- [讲座公告](https://jamesnet.dev/article/64)
+- [讲座回顾](https://jamesnet.dev/article/87)
+- [YouTube完整视频](https://www.youtube.com/watch?v=PZXfi3niYPw)
+
+### 第十期 (2023.05.06, 13:00 ~ 17:00)
+- 主题：冒泡和隧道事件，主题设计
+- 内容：使用DynamicResource进行主题设计，多语言支持
+- [讲座公告](https://jamesnet.dev/article/65)
+- [讲座回顾](https://jamesnet.dev/article/89)
+- [YouTube完整视频](https://www.youtube.com/live/K7iK0KoA9gc?si=QeiksBjiM_6gqSW0)
+
+### 第十一期 (2023.05.13, 13:00 ~ 17:00)
+- 主题：冒泡和隧道事件，主题设计（进阶）
+- 内容：通过代码后台管理应用程序和ResourceDictionaries
+- [讲座公告](https://jamesnet.dev/article/66)
+- [讲座回顾](https://jamesnet.dev/article/94)
+- [YouTube完整视频](https://www.youtube.com/live/ukoctBWiAIU?si=EwI2rD9_GyGsSpMB)
+
+### 第十二期 (2023.05.20, 13:00 ~ 17:00)
+- 主题：项目模块化设计
+- 内容：理解WPF基本组件，独立项目配置，TreeView使用案例研究
+- [讲座公告](https://jamesnet.dev/article/67)
+- [讲座回顾](https://jamesnet.dev/article/91)
+- [YouTube完整视频](https://www.youtube.com/live/CQxhYiFqEv4?si=m4MeL9V1-Nz5nuyt)
+
+### 第十三期 (2023.08.26, 13:00 ~ 17:00)
+- 主题：实现WPF资源管理器应用
+- 内容：项目模块化，模块化策略，通过Support项目设计ContentControl
+- [讲座公告](https://jamesnet.dev/article/68)
+- [讲座回顾](https://jamesnet.dev/article/92)
+- [YouTube完整视频](https://www.youtube.com/live/5Pt-IvEogWU?si
 
 ## 赞助鸣谢
 

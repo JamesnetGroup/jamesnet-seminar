@@ -1,4 +1,4 @@
-# Jamesnet 研讨会系列 [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![中文](https://img.shields.io/badge/Language-中文-red.svg)](README.zh-CN.md) [![한국어](https://img.shields.io/badge/Language-한국어-green.svg)](README.ko.md)
+# Jamesnet 研讨会系列 [![English](https://img.shields.io/badge/docs-English-blue.svg)](README.md) [![中文](https://img.shields.io/badge/docs-中文-red.svg)](README.zh-CN.md) [![한국어](https://img.shields.io/badge/docs-한국어-green.svg)](README.ko.md)
 
 [![WPF](https://img.shields.io/badge/WPF--.NET-blueviolet)](https://github.com/dotnet/wpf)
 [![Blazor](https://img.shields.io/badge/Blazor--.NET-purple)](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)

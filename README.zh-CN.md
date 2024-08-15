@@ -14,7 +14,7 @@
 
 ## 主办人介绍
 
-李在雄和曲阳是一对共同运营 Jamesnet.dev 网站、YouTube 频道和哔哩哔哩频道的开发者夫妇。他们合著了[WPF Inside Out](https://bit.ly/4cWqjjQ)一书，并通过各种平台分享 WPF 相关知识。[李在雄](https://jamesnet.dev/jamesnet214)因其在韩国的开源贡献、线下讲座和在线指导等多方面活动而被认定为 [Microsoft MVP](https://bit.ly/4cWfsXb)。[瞿扬](https://jamesnet.dev/vickyqu115)通过哔哩哔哩频道[小李趣味多](https://space.bilibili.com/688707261)制作 [WPF 教程](https://jamesnet.dev/article/118/English)系列视频，目前已发布六个中文系列，这些视频也在 [YouTube](https://youtube.com/@jamesnet214) 上提供英文版本和韩文字幕。通过这些活动，他们的哔哩哔哩频道已成为中国最活跃的 WPF 社区之一。
+李在雄和曲阳是一对共同运营 Jamesnet.dev 网站、YouTube 频道和哔哩哔哩频道的开发者夫妇。他们合著了[WPF Inside Out](https://bit.ly/4cWqjjQ)一书，并通过各种平台分享 WPF 相关知识。[李在雄](https://jamesnet.dev/jamesnet214)因其在韩国的开源贡献、线下讲座和在线指导等多方面活动而被认定为 [Microsoft MVP](https://bit.ly/4cWfsXb)。[瞿扬](https://jamesnet.dev/vickyqu)通过哔哩哔哩频道[小李趣味多](https://space.bilibili.com/688707261)制作 [WPF 教程](https://jamesnet.dev/article/118/English)系列视频，目前已发布六个中文系列，这些视频也在 [YouTube](https://youtube.com/@jamesnet214) 上提供英文版本和韩文字幕。通过这些活动，他们的哔哩哔哩频道已成为中国最活跃的 WPF 社区之一。
 
 <img src="https://github.com/user-attachments/assets/bcad9bff-8576-4ac6-967e-c812e82b3834" width="49%"/>
 <img src="https://github.com/user-attachments/assets/2cb5b63b-c057-4c17-a82a-cdd8dc421048" width="49%"/>
@@ -24,7 +24,7 @@
 - 一个开放的聚会，任何人都可以自由申请参加
 - 迄今为止共举办了16次会议
 - 从第5次到第16次会议，除了线下研讨会外，还进行了 YouTube 直播
-- 主办人：[李在雄 MVP](https://jamesnet.dev/jamesnet214)，[瞿扬](https://jamesnet.dev/vickyqu115)
+- 主办人：[李在雄 MVP](https://jamesnet.dev/jamesnet214)，[瞿扬](https://jamesnet.dev/vickyqu)
 - 地点：韩国首尔（第1-16次会议）
 - 涵盖技术：WPF、跨平台、Blazor 等各种 .NET 技术（主要聚焦于高级 WPF 技术）
 - 第17次会议计划于2024年9月在中国南京举行

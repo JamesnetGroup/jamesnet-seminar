@@ -15,7 +15,7 @@
 
 ## 주최자 소개
 
-이재웅과 구양은 Jamesnet.dev 웹사이트, 유튜브, 그리고 빌리빌리 채널을 함께 운영 중인 개발자 부부입니다. [WPF Inside Out](https://bit.ly/4cWqjjQ) 책을 공동 집필하였으며, 다양한 플랫폼을 통해 WPF 관련 지식을 공유하고 있습니다. [이재웅](https://jamesnet.dev/jamesnet214)은 한국에서의 오픈소스, 오프라인 강연, 온라인 멘토링 등 다양한 활동을 인정받아 [Microsoft MVP](https://bit.ly/4cWfsXb)로 선정되어 활동 중입니다. [구양](https://jamesnet.dev/vickyqu115)은 빌리빌리 채널 [小李趣味多](https://space.bilibili.com/688707261)를 통해 [WPF 튜토리얼](https://jamesnet.dev/article/118/English) 시리즈 영상을 제작하고 있으며, 현재까지 6개의 중국어 시리즈를 공개했고 [유튜브](https://youtube.com/@jamesnet214)를 통해 영어 버전과 한국어 자막으로도 제공하고 있습니다. 이러한 활동들을 통해 빌리빌리 채널은 중국에서 가장 활성화된 WPF 커뮤니티 중 하나로 인정받고 있습니다.
+이재웅과 구양은 Jamesnet.dev 웹사이트, 유튜브, 그리고 빌리빌리 채널을 함께 운영 중인 개발자 부부입니다. [WPF Inside Out](https://bit.ly/4cWqjjQ) 책을 공동 집필하였으며, 다양한 플랫폼을 통해 WPF 관련 지식을 공유하고 있습니다. [이재웅](https://jamesnet.dev/jamesnet214)은 한국에서의 오픈소스, 오프라인 강연, 온라인 멘토링 등 다양한 활동을 인정받아 [Microsoft MVP](https://bit.ly/4cWfsXb)로 선정되어 활동 중입니다. [구양](https://jamesnet.dev/vickyqu)은 빌리빌리 채널 [小李趣味多](https://space.bilibili.com/688707261)를 통해 [WPF 튜토리얼](https://jamesnet.dev/article/118/English) 시리즈 영상을 제작하고 있으며, 현재까지 6개의 중국어 시리즈를 공개했고 [유튜브](https://youtube.com/@jamesnet214)를 통해 영어 버전과 한국어 자막으로도 제공하고 있습니다. 이러한 활동들을 통해 빌리빌리 채널은 중국에서 가장 활성화된 WPF 커뮤니티 중 하나로 인정받고 있습니다.
 
 <img src="https://github.com/user-attachments/assets/bcad9bff-8576-4ac6-967e-c812e82b3834" width="49%"/>
 <img src="https://github.com/user-attachments/assets/2cb5b63b-c057-4c17-a82a-cdd8dc421048" width="49%"/>
@@ -25,7 +25,7 @@
 - 누구나 자유롭게 신청하여 참여할 수 있는 열린 모임
 - 현재까지 총 16회 진행
 - 제5회부터 16회 까지는 오프라인 세미나와 함께 유튜브 라이브 스트리밍으로도 진행
-- 주최: [이재웅 MVP](https://jamesnet.dev/jamesnet214), [구양](https://jamesnet.dev/vickyqu115)
+- 주최: [이재웅 MVP](https://jamesnet.dev/jamesnet214), [구양](https://jamesnet.dev/vickyqu)
 - 장소: 대한민국 서울 (1회 ~ 16회)
 - 다루는 기술: WPF, 크로스플랫폼, Blazor 등 다양한 닷넷 기술 (주로 WPF 고급 기술에 중점)
 - 제17회는 2024년 9월 중국 난징에서 개최 예정
